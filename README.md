@@ -1,4 +1,4 @@
-# Dagster Docs: LLM-Optimized Reference Set
+# Dagster Docs: LLM-Ready
 
 This repository is a **PoC** implementation of **LLM-optimized documentation** for [Dagster OSS](https://dagster.io). The core idea is to break down and curate Dagster’s docs into modular, logically ordered markdown files that can be consumed by an LLM like ChatGPT to build up its contextual knowledge and help it solve specific implementations of Dagster.
 
