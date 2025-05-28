@@ -1,0 +1,33 @@
+
+On this page
+
+Dagster's asset selection syntax allows you to query and view assets within your data lineage graph. You can select upstream and downstream layers of the graph, use filters to narrow down your selection, and use functions to return the root or sink assets of a given selection.
+
+With asset selection, you can:
+
+- Select a set of assets to view in the Dagster UI
+- Define a job in Python that targets a selection of assets
+- List or materialize a set of assets using the [Dagster CLI](https://docs.dagster.io/api/dagster/cli#dagster-asset)
+
+## Availability [​](https://docs.dagster.io/guides/build/assets/asset-selection-syntax\#availability "Direct link to Availability")
+
+In the **Dagster OSS UI**, the asset selection syntax is available on:
+
+- The Asset Catalog
+- The Global asset lineage page
+
+In the **Dagster+ UI**, the asset selection syntax is available on:
+
+- The Asset Catalog > All Assets page
+- The Global asset lineage page
+- The Asset Health page
+- The Insights page
+- The Alert Policy creation page (when creating an asset alert)
+
+## Next steps [​](https://docs.dagster.io/guides/build/assets/asset-selection-syntax\#next-steps "Direct link to Next steps")
+
+- See the [asset selection syntax reference](https://docs.dagster.io/guides/build/assets/asset-selection-syntax/reference) for a full list of the filters, layers, operands, and functions that you can use to construct your own queries.
+- Check out [example asset selection queries](https://docs.dagster.io/guides/build/assets/asset-selection-syntax/examples).
+
+- [Availability](https://docs.dagster.io/guides/build/assets/asset-selection-syntax#availability)
+- [Next steps](https://docs.dagster.io/guides/build/assets/asset-selection-syntax#next-steps)
