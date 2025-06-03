@@ -1,0 +1,57 @@
+{
+  "$schema": "https://contextjson.com/context.schema.json",
+  "attribution": "https://github.com/janwilmake/contextjson",
+  "context": {
+    "foundation": {
+      "summary": "Core Dagster concepts and getting started guide",
+      "pathPatterns": [
+        "llm-ready/foundation.md",
+        "curated_dagster_docs/foundation/core/installation_quickstart/*.md"
+      ],
+      "prompt": "I'm new to Dagster and want to understand the fundamental concepts and how to get started building data pipelines."
+    },
+    "build-pipeline": {
+      "summary": "Complete guide to building Dagster pipelines with assets",
+      "pathPatterns": [
+        "llm-ready/foundation.md",
+        "curated_dagster_docs/foundation/core/defining_assets/*.md",
+        "curated_dagster_docs/foundation/core/io_managers_resources_basics/*.md"
+      ],
+      "prompt": "Help me build a data pipeline in Dagster with assets, dependencies, and proper data handling."
+    },
+    "automation": {
+      "summary": "Scheduling and automation features in Dagster",
+      "pathPatterns": [
+        "curated_dagster_docs/foundation/orchestration_automation/declarative_automation/*.md",
+        "curated_dagster_docs/foundation/orchestration_automation/schedules_time/*.md",
+        "curated_dagster_docs/foundation/orchestration_automation/sensors_event/*.md"
+      ],
+      "prompt": "I want to automate my Dagster pipelines with schedules, sensors, or declarative automation."
+    },
+    "advanced-patterns": {
+      "summary": "Advanced Dagster features and patterns",
+      "pathPatterns": [
+        "llm-ready/layer_one_advanced.md",
+        "curated_dagster_docs/advanced/platform_patterns/**/*.md",
+        "curated_dagster_docs/advanced/testing_observability/**/*.md"
+      ],
+      "prompt": "I need to implement advanced Dagster patterns like dynamic graphs, asset factories, testing, or debugging."
+    },
+    "deployment": {
+      "summary": "Deploying and operating Dagster in production",
+      "pathPatterns": [
+        "curated_dagster_docs/deployment_ops/**/*.md",
+        "curated_dagster_docs/project_workflow/**/*.md"
+      ],
+      "prompt": "Help me deploy Dagster to production and structure my project properly."
+    },
+    "tutorial-complete": {
+      "summary": "End-to-end ETL tutorial with all concepts",
+      "pathPatterns": [
+        "llm-ready/*.md",
+        "curated_dagster_docs/integrations_examples/etl_tutorial/*.md"
+      ],
+      "prompt": "Guide me through building a complete ETL pipeline in Dagster from start to finish with best practices."
+    }
+  }
+}
